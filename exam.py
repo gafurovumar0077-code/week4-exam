@@ -96,3 +96,15 @@
 
 
 
+
+
+
+
+
+def wer(num):
+    def rew(nam):
+        return num+nam
+    return rew
+
+print(wer(1,1))
+
